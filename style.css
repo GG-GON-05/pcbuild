@@ -15,8 +15,8 @@ body{
 }
 .header{
     background-image: linear-gradient(
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)),
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.3)),
         url(img/fondo.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -36,7 +36,8 @@ body{
 }
 .logo_empresa{
     width: 250px;
-    height: 60px;
+    height: 57px;
+    margin-top: 5px;
 }
 .logo{
     color: #FFFDFC;
@@ -91,7 +92,7 @@ body{
     text-transform: uppercase;
 }
 .btn-1:hover{
-    background-color: blueviolet;
+    background-color: rgb(99, 27, 165);
 }
 .ordenador{
     padding: 100px 0;
@@ -173,7 +174,7 @@ body{
     padding: 0 100px;
 }
 .services-1 img{
-    width: 40px;
+    width: 50px;
     margin-bottom: 15px;
 }
 .services-1 h3{
@@ -237,7 +238,15 @@ p{
     font-size: 25px;
     color: #11131a;
 }
-/* Aquí termina la parte del blog */
+/* Aquí termina la parte del Sponsors */
+.blog h2{
+    color: blueviolet;
+}
+.tamaño{
+    width: 100px;
+    height: 35px;
+}
+/* Aquí la parte del footer */
 .footer{
     padding: 100px 0;
     background-color: black;
@@ -257,8 +266,11 @@ p{
     display: block;
     margin-bottom: 15px;
 }
+.logos_redes{
+    width: 25px;
+}
 /* comenzamos con el responsing */
-@media(max-width:991px){
+@media(max-width:1100px){
     .menu{
         padding: 30px;
     }
@@ -288,6 +300,9 @@ p{
     }
     .header-content p{
         padding: 0;
+    }
+    .header-content h1{
+        font-size: 50px;
     }
     /* Ahora con la parte de (beige) */
     .ordenador{
@@ -324,6 +339,9 @@ p{
     .general{
         flex-direction: column;
     }
+    .general h2{
+        font-size: 45px;
+    }
     .general-1{
         width: 100%;
         padding: 30px;
@@ -345,7 +363,7 @@ p{
     .blog-1{
         padding: 0;
     }
-    /* ahora con la parte de abajo */
+    /* ahora con la parte de abajo (footer)*/
     .footer{
         padding: 0;
     }
