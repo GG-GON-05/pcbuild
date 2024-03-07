@@ -538,6 +538,9 @@ input {
         text-align: center;
     }
     /* para hacer el registrarse mas pequeño */
+    .form-container{
+        width: 100%;
+    }
     .form-container h1{
         font-size: 32px;
     }
