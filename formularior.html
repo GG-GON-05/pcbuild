@@ -3,22 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulario de Registro</title>
-  <link rel="stylesheet" href="formularior.css">
+  <title>Inicio de Sesión</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="icono/Logo.png" type="image/x-icon">
 </head>
 <body>
-  <div class="container">
-    <div class="form-container">
-      <h1>Registro</h1>
-      <img src="icono/usuario2.png" class="prueba">
-      <input type="text" placeholder="Nombre" required>
-      <img src="icono/correo.png" class="prueba">
-      <input type="email" placeholder="Correo electrónico" required>
-      <img src="icono/contrasena.png" class="prueba">
-      <input type="password" placeholder="Contraseña" required>
-      <a href="index.html"><button type="submit">Registrarse</button></a>
+  <header class="header" id="header4">
+    <div class="menu container">
+        <a href="index.html" class="logo"><img src="img/Logo empresa.png" alt="" class="logo_empresa"></a>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="img/menu.png" class="menu-icon">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="productos.html"><img src="icono/carrito.png"></a></li>
+                <li><a href="formulario.html"><img src="icono/usuario.png"></a></li>
+            </ul>
+        </nav>
     </div>
+    <div class="header-content container">
+      <div class="form-container">
+        <h1 class="tituloform">Registrarse</h1>
+        <input type="text" placeholder="Usuario" required>
+        <input type="text" placeholder="Correo Electrónico" required>
+        <input type="password" placeholder="Contraseña" required>
+        <a href="index.html"><button type="submit">Entrar</button></a>
+      </div>
+    </div>
+</header>
+<footer class="footer">
+  <div class="footer-content container">
+      <div class="link">
+          <h3>Por qué comprar</h3>
+          <ul>
+              <li><a href="#">Cómo comprar</a></li>
+              <li><a href="#">Formas de pago</a></li>
+              <li><a href="#">Cupones</a></li>
+              <li><a href="#">Preguntas frecuentes</a></li>
+          </ul>
+      </div>
+      <div class="link">
+          <h3>Contactar</h3>
+          <ul>
+              <li><a href="#">Devoluciones</a></li>
+              <li><a href="#">Centro de soporte</a></li>
+              <li><a href="#">Garantías</a></li>
+              <li><a href="#">Política de Cookies</a></li>
+          </ul>
+      </div>
+      <div class="link">
+          <h3>Otros</h3>
+          <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="servicios.html">Servicios</a></li>
+              <li><a href="productos.html">Productos</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+      </div>
+      <div class="link">
+          <h3>Redes Sociales</h3>
+          <ul>
+              <li><a href="#"><img src="img/instagram.png" alt="" class="logos_redes"> Instagram</a></li>
+              <li><a href="#"><img src="img/facebook.png" alt="" class="logos_redes"> Facebook</a></li>
+              <li><a href="#"><img src="img/twitter.png" alt="" class="logos_redes"> Twitter</a></li>
+              <li><a href="#"><img src="img/tiktok.png" alt="" class="logos_redes"> Tiktok</a></li>
+          </ul>
+      </div>
   </div>
+</footer>
 </body>
 </html>
